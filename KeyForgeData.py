@@ -65,4 +65,4 @@ while iTotal > len(decks) or iTotal == 0:
 
 	dGetVars['page'] = int(math.floor(len(decks) / iPageSize)) + 1
 
-	print str(((time.time() - iStartTime) / (len(decks) - iSoFar)) * (iTotal - len(decks)) / 60 / 60) + ' hours (dciaml, approx)'
+	print str(((time.time() - iStartTime) / (len(decks) - iSoFar)) * (iTotal - len(decks)) / 60 / 60) + ' hours (decimal, approx)'
